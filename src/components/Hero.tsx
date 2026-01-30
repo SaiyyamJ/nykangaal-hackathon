@@ -15,36 +15,47 @@ const Hero = () => {
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
               Unlock Your
-              <span className="block text-primary">Natural Glow</span>
+              <span className="block text-primary"> Existential Dread</span>
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              Discover premium beauty products curated just for you. From skincare essentials
-              to luxurious fragrances, find everything to elevate your beauty routine.
+              Discover overpriced goop cursted just for you. From skincare essentials that do nothing ,luxurious fragrances that smell like desperation, find everything to elevate your debt.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button className="gradient-primary text-primary-foreground px-8 py-6 text-lg font-semibold rounded-full shadow-soft hover:shadow-hover transition-all duration-300 group">
-                Shop Now
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" className="px-8 py-6 text-lg font-semibold rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
-                Explore Brands
-              </Button>
+  <span className="group-hover:hidden transition-all">
+    Shop Now
+  </span>
+
+  <span className="hidden group-hover:inline transition-all">
+    Don’t
+  </span>
+
+  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+</Button>
+
+              <Button
+  variant="outline"
+  className="group px-8 py-6 text-lg font-semibold rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+>
+  Explore <span className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity italic">(regrets)</span>
+</Button>
+
             </div>
 
             {/* Stats */}
             <div className="flex gap-8 justify-center lg:justify-start pt-4">
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-primary">15K+</div>
-                <div className="text-sm text-muted-foreground">Products</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary">Too Much</div>
+                <div className="text-sm text-muted-foreground">Debt</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-primary">500+</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary">Too Many</div>
                 <div className="text-sm text-muted-foreground">Brands</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-primary">2M+</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary">0+</div>
                 <div className="text-sm text-muted-foreground">Happy Customers</div>
               </div>
             </div>

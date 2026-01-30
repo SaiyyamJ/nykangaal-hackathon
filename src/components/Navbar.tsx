@@ -45,7 +45,7 @@ const Navbar = () => {
             {/* Logo */}
             <Link to="/" className="flex-shrink-0">
               <h1 className="font-display text-2xl md:text-3xl font-bold text-primary tracking-tight">
-                Glowkaa
+                Ny-Kangaal
               </h1>
             </Link>
 

@@ -8,10 +8,10 @@ const CategoryCards = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Shop by Category
+            Shop by your mood 
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore our curated collection of beauty essentials across all categories
+            Explore our curated collection of beauty essentials to make you broke...
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const CategoryCards = () => {
                   {category.name}
                 </h3>
                 <p className="text-primary-foreground/70 text-sm mb-2">
-                  {category.count.toLocaleString()}+ Products
+                {category.count.toLocaleString()}+ Products
                 </p>
                 <div className="flex items-center justify-center gap-1 text-primary-foreground text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   Shop Now

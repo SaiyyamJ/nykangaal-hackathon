@@ -37,7 +37,7 @@ const LoginModal = ({ isOpen, onClose }: LoginModalProps) => {
         {/* Header */}
         <div className="gradient-hero px-6 py-8 text-center">
           <h2 className="font-display text-3xl font-bold text-primary mb-2">
-            Welcome to Glowkaa
+            Welcome to Ny-Kangaal
           </h2>
           <p className="text-muted-foreground text-sm">
             Your beauty destination awaits
